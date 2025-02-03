@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="grid gap-2 col-span-6">
+        <div class="bg-green-400 col-span-6">Header</div>
+        <div class="bg-green-400 h-44 col-span-2">Menu</div>
+        <div class="bg-green-400 h-44 col-span-4">Content</div>
+        <div class="bg-green-400 col-span-6">Footer</div>
+    </div>
+
+    <div class="mt-10 grid gap-2 col-span-6">
+        <div class="col-start-1 col-end-7 lg:col-start-2 lg:col-end-7 h-14 flex justify-center items-center bg-violet-300 ">Header</div>
+        <div class="col-start-1 col-end-7 lg:row-start-1 lg:row-end-4  flex justify-center items-center bg-violet-300">Menu</div>
+        <div class="col-start-1 col-end-7 lg:col-start-2 lg:col-end-7 h-14 flex justify-center items-center bg-violet-300">Content</div>
+        <div class="col-start-1 col-end-7 lg:col-start-2 lg:col-end-7 h-14 flex justify-center items-center bg-violet-300">Footer</div>
+    </div>
+</body>
+</html>
